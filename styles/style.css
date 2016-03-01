@@ -13,12 +13,13 @@ html {
 }
 
 body {
-  margin: 0;
-  font-family: Raleway, sans-serif;
+  margin: 1;
+  font-family: sans-serif;
   color: #272727;
 }
 
 ul {
+  font-size: 1.5rem;
   list-style: none;
   padding: 0;
 }
@@ -38,18 +39,18 @@ ul {
 }
 
 .top-nav__item--brand {
-  float: right;
+  float: right
 }
 
 .top-nav {
   background: #272727;
-  color: antiquewhite;
+  color:#F25F5C;
 }
 
 .content {
-  padding: 0 1rem;
-  max-width: 1040px
-  margin: auto
+  padding: 0 2rem;
+  max-width: 1040px;
+  margin: auto;
 }
 
 .student-info {
@@ -63,7 +64,7 @@ ul {
 .student-info__profile-pic {
   display: block;
   margin: auto;
-
+  text-align: center;
   border-radius: 50%;
   width: 5rem;
 }
@@ -71,10 +72,11 @@ ul {
 .student-info__name, .student-info__bio {
   text-align: center;
   margin: 0.4rem;
+
 }
 
 .student-info__social-list {
-  margin: auto
+  margin: auto;
   text-align: center;
 }
 

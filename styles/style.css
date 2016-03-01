@@ -13,13 +13,12 @@ html {
 }
 
 body {
-  margin: 1;
-  font-family: sans-serif;
+  margin: 0;
   color: #272727;
+  font-family: Raleway, sans-serif;
 }
 
 ul {
-  font-size: 1.5rem;
   list-style: none;
   padding: 0;
 }
@@ -39,7 +38,7 @@ ul {
 }
 
 .top-nav__item--brand {
-  float: right
+  float: left;
 }
 
 .top-nav {
@@ -48,7 +47,7 @@ ul {
 }
 
 .content {
-  padding: 0 2rem;
+  padding: 0 1rem;
   max-width: 1040px;
   margin: auto;
 }
@@ -64,7 +63,6 @@ ul {
 .student-info__profile-pic {
   display: block;
   margin: auto;
-  text-align: center;
   border-radius: 50%;
   width: 5rem;
 }
